@@ -1,6 +1,12 @@
+import { GlobalStyles } from "./globalStyled";
+
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <GlobalStyles />
+
+      App
+    </div>
   )
 }
 
